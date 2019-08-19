@@ -1,0 +1,89 @@
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font: 100% $font-h;
+  color: $primary-color !important;
+}
+
+h1 {
+  font-size: 66px !important;
+}
+
+h6 {
+  font: 100% $font-b;
+  font-weight: 600;
+  font-size: 14px;
+  color: $secondary-color;
+}
+
+p {
+  font: 100% $font-b;
+  color: $secondary-color;
+  font-size: 16px !important;
+  font-weight: 300;
+}
+
+
+.vert-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  margin-bottom: 0px !important;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: $primary-color-muted;
+  font: 100% $font-h;
+  border: solid 0px;
+  padding: 15px 13px 13px 13px !important;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: $primary-color-muted;
+  font: 100% $font-h;
+  border: solid 0px;
+  padding: 15px 13px 13px 13px !important;
+}
+
+.very-muted {
+  color: $secondary-color;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+a {
+  font-weight: 300;
+}
+
+.a-remove-style-sec {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+a:hover {
+  color: $secondary-color-hovered;
+}
+
+
+.drop-shadow {
+  background: #FFFFFF;
+  box-shadow: 0 11px 37px -12px rgba(0, 0, 0, 0.20);
+  border-radius: 5px;
+}
+
+
+
