@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NoSsr>
     <Hero />
     <Proof data-aos="fade-up" data-aos-offset="100" data-aos-delay="850" data-aos-duration="900" />
     <Projects />
@@ -10,6 +11,7 @@
         easing: 'easeInOutCubic'
       });
     </script>
+    </NoSsr>
   </div>
 </template>
 

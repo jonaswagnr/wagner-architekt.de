@@ -43,7 +43,6 @@ export default {
   css: [
     "@/static/css/bootstrap.min.css", 
     "@/static/css/_global.scss",
-    'aos/dist/aos.css'
   ],
   styleResources: {
     scss: ["@/assets/*.scss"]
@@ -53,7 +52,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/aos.js'],
+  plugins: [],
   /*
    ** Nuxt.js dev-modules
    */

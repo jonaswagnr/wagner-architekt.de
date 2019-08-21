@@ -5,8 +5,6 @@ import '../static/css/bootstrap.min.css'
 
 import '../static/css/_global.scss'
 
-import '../node_modules/aos/dist/aos.css'
-
 import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }
