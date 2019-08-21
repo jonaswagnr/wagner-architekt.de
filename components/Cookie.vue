@@ -36,7 +36,7 @@
         border-radius: 5px;
         color: $primary-color !important;
         font-family: $font-b !important;
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
     }
 
     .cc-window.cc-invisible {
