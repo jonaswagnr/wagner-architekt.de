@@ -5,10 +5,10 @@ import { interopDefault } from './utils'
 const _074e0184 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
 const _153934a8 = () => interopDefault(import('../pages/impressum/index.vue' /* webpackChunkName: "pages/impressum/index" */))
 const _27b33428 = () => interopDefault(import('../pages/about/karriere/index.vue' /* webpackChunkName: "pages/about/karriere/index" */))
-const _7557c422 = () => interopDefault(import('../pages/projekte/betreutes-wohnen/index.vue' /* webpackChunkName: "pages/projekte/betreutes-wohnen/index" */))
 const _2ce270aa = () => interopDefault(import('../pages/projekte/gewerblich/index.vue' /* webpackChunkName: "pages/projekte/gewerblich/index" */))
 const _13d20cbe = () => interopDefault(import('../pages/projekte/oeffentlich/index.vue' /* webpackChunkName: "pages/projekte/oeffentlich/index" */))
 const _3702134e = () => interopDefault(import('../pages/projekte/privat/index.vue' /* webpackChunkName: "pages/projekte/privat/index" */))
+const _3b0b251d = () => interopDefault(import('../pages/projekte/wohnen-im-alter/index.vue' /* webpackChunkName: "pages/projekte/wohnen-im-alter/index" */))
 const _26503bc0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -98,10 +98,6 @@ export function createRouter() {
       component: _27b33428,
       name: "about-karriere"
     }, {
-      path: "/projekte/betreutes-wohnen",
-      component: _7557c422,
-      name: "projekte-betreutes-wohnen"
-    }, {
       path: "/projekte/gewerblich",
       component: _2ce270aa,
       name: "projekte-gewerblich"
@@ -113,6 +109,10 @@ export function createRouter() {
       path: "/projekte/privat",
       component: _3702134e,
       name: "projekte-privat"
+    }, {
+      path: "/projekte/wohnen-im-alter",
+      component: _3b0b251d,
+      name: "projekte-wohnen-im-alter"
     }, {
       path: "/",
       component: _26503bc0,

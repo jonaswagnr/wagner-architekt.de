@@ -45,7 +45,7 @@
                             <nuxt-link class="a-remove-style-sec" to="/projekte/gewerblich">Gewerblich</nuxt-link>
                         </li>
                         <li class="py-1">
-                            <nuxt-link class="a-remove-style-sec" to="/projekte/betreutes-wohnen">Betreutes Wohnen
+                            <nuxt-link class="a-remove-style-sec" to="/projekte/wohnen-im-alter">Wohnen im Alter
                             </nuxt-link>
                         </li>
                     </ul>

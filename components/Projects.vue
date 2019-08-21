@@ -3,88 +3,99 @@
     <div class="row align-items-center text-md-left mb-5 mb-6rem">
       <div class="col-md-6 order-0 order-xs-1 mb-3rem img-head">
         <div>
-          <img data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" data-aos-duration="600"
+          <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
             class="img-z-1 img-fluid drop-shadow"
             src="https://images.unsplash.com/photo-1520608421741-68228b76b6df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
             alt="">
         </div>
         <div>
-          <img data-aos="fade-up" data-aos-offset="0" data-aos-delay="150" data-aos-duration="600"
+          <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="250" data-sel-easing="ease-out-bounce"
             class="img-z-2 img-fluid drop-shadow"
             src="https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80"
             alt="">
         </div>
       </div>
       <div class="col-md-6 mb-4 mb-md-0 mb-3rem mblr-3rem">
-        <h2 data-aos="fade-up" data-aos-offset="100" data-aos-delay="150" data-aos-duration="600" class="mb-4">Private
+        <h2 data-sal-duration="800" data-sal="slide-up" data-sal-delay="400" data-sel-easing="ease-out-bounce"
+          class="mb-4">Private
           Bauvorhaben</h2>
-        <p data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="600"
-          class="description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend euismod
-          varius. Proin venenatis neque dapibus ex elementum suscipit. Donec mi ante, condimentum in dignissim non,
-          mattis in magna. Aenean a molestie turpis. Nunc fermentum vulputate fringilla. Ut mi sapien, ultricies
-          eleifend tincidunt id, maximus tristique purus.</p>
-        <PrimaryButton data-aos="fade-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="600">
+        <p data-sal-duration="800" data-sal="slide-up" data-sal-delay="500" data-sel-easing="ease-out-bounce"
+          class="description-project">In Bauaufträgen privater Herkunft arbeiten wir vor allem an Neubauten oder
+          Sanierungen von Wohnhäusern.
+          Wir haben in den vergangenen Jahren verschiedene Projekte wie zum Beispiel das Arkadenhaus Papenburg geplant
+          und aufgebaut.</p>
+        <PrimaryButton href="/projekte/privat" data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
+          data-sel-easing="ease-out-bounce">
           <template v-slot:title>
-            Weitere Projekte
+            Weitere Private Bauvorhaben anschauen
           </template>
         </PrimaryButton>
       </div>
     </div>
+
     <div class="row align-items-center text-md-right mb-5 mb-6rem">
       <div class="col-md-6 order-md-1 mb-3rem">
-        <img data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="600"
+        <img data-sal-duration="600" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
           class="img-fluid drop-shadow"
           src="https://images.unsplash.com/photo-1530200917055-116e350d5b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=998&q=80"" alt=""></div>
                       <div class=" col-md-6 mb-4 mb-md-0 order-md-0 mb-3rem">
-        <h2 data-aos="fade-up" data-aos-offset="100" data-aos-delay="150" data-aos-duration="600" class="mb-4">
+        <h2 data-sal-duration="800" data-sal="slide-up" data-sal-delay="400" data-sel-easing="ease-out-bounce"
+          class="mb-4">
           Öffentliche Bauvorhaben</h2>
-        <p data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="600"
+        <p data-sal-duration="800" data-sal="slide-up" data-sal-delay="500" data-sel-easing="ease-out-bounce"
           class="description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend euismod
           varius. Proin venenatis neque dapibus ex elementum suscipit. Donec mi ante, condimentum in dignissim non,
           mattis in magna. Aenean a molestie turpis. Nunc fermentum vulputate fringilla. Ut mi sapien, ultricies
           eleifend tincidunt id, maximus tristique purus.</p>
-        <PrimaryButton data-aos="fade-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="600">
+        <PrimaryButton data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
+          data-sel-easing="ease-out-bounce">
           <template v-slot:title>
             Weitere Projekte
           </template>
         </PrimaryButton>
       </div>
     </div>
+
     <div class="row align-items-center text-md-left mb-5 mb-6rem">
       <div class="col-md-6 order-0 order-xs-1 mb-3rem">
-        <img data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="600"
+        <img data-sal-duration="600" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
           class="img-fluid drop-shadow"
           src="https://images.unsplash.com/photo-1529676468696-f3a47aba7d5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
-          alt=""></div>
+          alt="">
+      </div>
       <div class="col-md-6 mb-4 mb-md-0 mb-3rem">
-        <h2 data-aos="fade-up" data-aos-offset="100" data-aos-delay="150" data-aos-duration="600" class="mb-4">
+        <h2 data-sal-duration="800" data-sal="slide-up" data-sal-delay="400" data-sel-easing="ease-out-bounce"
+          class="mb-4">
           Gewerbliche Bauvorhaben</h2>
-        <p data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="600"
+        <p data-sal-duration="800" data-sal="slide-up" data-sal-delay="500" data-sel-easing="ease-out-bounce"
           class="description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend euismod
           varius. Proin venenatis neque dapibus ex elementum suscipit. Donec mi ante, condimentum in dignissim non,
           mattis in magna. Aenean a molestie turpis. Nunc fermentum vulputate fringilla. Ut mi sapien, ultricies
           eleifend tincidunt id, maximus tristique purus.</p>
-        <PrimaryButton data-aos="fade-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="600">
+        <PrimaryButton data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
+          data-sel-easing="ease-out-bounce">
           <template v-slot:title>
             Weitere Projekte
           </template>
         </PrimaryButton>
       </div>
     </div>
+
     <div class="row align-items-center text-md-right mb-5 mb-6rem">
       <div class="col-md-6 order-md-1 mb-3rem">
-        <img data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="600"
+        <img data-sal-duration="600" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
           class="img-fluid drop-shadow"
           src="https://images.unsplash.com/photo-1521574873411-508db8dbe55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"" alt=""></div>
                             <div class=" col-md-6 mb-4 mb-md-0 order-md-0 mb-3rem">
-        <h2 data-aos="fade-up" data-aos-offset="100" data-aos-delay="150" data-aos-duration="600" class="mb-4">Betreutes
-          Wohnen</h2>
-        <p data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" data-aos-duration="600"
+        <h2 data-sal-duration="800" data-sal="slide-up" data-sal-delay="400" data-sel-easing="ease-out-bounce"
+          class="mb-4">Wohnen im Alter</h2>
+        <p data-sal-duration="800" data-sal="slide-up" data-sal-delay="500" data-sel-easing="ease-out-bounce"
           class="description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend euismod
           varius. Proin venenatis neque dapibus ex elementum suscipit. Donec mi ante, condimentum in dignissim non,
           mattis in magna. Aenean a molestie turpis. Nunc fermentum vulputate fringilla. Ut mi sapien, ultricies
           eleifend tincidunt id, maximus tristique purus.</p>
-        <PrimaryButton data-aos="fade-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="600">
+        <PrimaryButton data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
+          data-sel-easing="ease-out-bounce">
           <template v-slot:title>
             Weitere Projekte
           </template>

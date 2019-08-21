@@ -1,5 +1,5 @@
 <template>
-    <a v-bind:href="url" class="btn btn-primary btn-shadow">
+    <a class="btn btn-primary btn-shadow">
         <slot name="title">
 
         </slot>
@@ -24,7 +24,7 @@
 
     .btn-shadow:hover {
         box-shadow: 3px 3px 0 0 lightgray;
-        transition: 0.2s all ease-in-out;
+        transition: 0.2s all ease-in-out !important;
         background-color: #354247;
         color: #fff;
         border: 1px solid #354247 !important;

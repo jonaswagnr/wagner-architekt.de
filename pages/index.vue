@@ -1,15 +1,8 @@
 <template>
   <div>
     <Hero />
-    <Proof data-sal-duration="800" data-sal="slide-down" data-sal-delay="300" data-sel-easing="ease-out-bounce" />
+    <Proof data-sal-duration="600" data-sal="slide-up" data-sal-delay="600" data-sel-easing="ease-out-bounce" />
     <Projects />
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1100,
-        speedAsDuration: true,
-        easing: 'easeInOutCubic'
-      });
-    </script>
   </div>
 </template>
 
@@ -19,7 +12,7 @@
   import Hero from '@/components/Hero'
   import Projects from '@/components/Projects'
   import Proof from '@/components/Proof'
-  import sal from 'sal.js'
+ 
 
   export default {
     components: {
@@ -28,8 +21,12 @@
       Proof
     },
     mounted() {
-      sal();
-    }
+    var scroll = new SmoothScroll('a[href*="#"]', {
+          speed: 1100,
+          speedAsDuration: true,
+          easing: 'easeInOutCubic'
+        });
+      }
 };
 
 </script>

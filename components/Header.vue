@@ -18,7 +18,7 @@
                                 <nuxt-link class="dropdown-item" to="/projekte/privat">Private Bauvorhaben</nuxt-link>
                                 <nuxt-link class="dropdown-item" to="/projekte/oeffentlich">Öffentliche Bauvorhaben</nuxt-link>
                                 <nuxt-link class="dropdown-item" to="/projekte/gewerblich">Gewerbliche Bauvorhaben</nuxt-link>
-                                <nuxt-link class="dropdown-item" to="/projekte/betreutes-wohnen">Betreutes Wohnen</nuxt-link>
+                                <nuxt-link class="dropdown-item" to="/projekte/wohnen-im-alter">Wohnen im Alter</nuxt-link>
                             </div>
                         </li>
                         <li class="nav-item">
