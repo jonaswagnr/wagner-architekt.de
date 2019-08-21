@@ -1,20 +1,16 @@
 <template>
-  
+
   <div class="container0">
-      <Cookie />
+    <Cookie />
     <Header />
     <div class="container">
       <nuxt />
-
     </div>
     <div class="footer-bg">
       <div class="container">
         <Footer />
       </div>
     </div>
-    <script>
-      AOS.init();
-    </script>
   </div>
 
 </template>
@@ -34,6 +30,8 @@
 </script>
 
 <style>
+   @import "../node_modules/sal.js/dist/sal.css";
+
   .container {
     max-width: 1140px;
     margin: auto;

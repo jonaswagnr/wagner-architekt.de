@@ -1,15 +1,9 @@
 <template>
-    <NoSsr>
     <section class="py-5">
         <div class="row">
             <div class="col-md-4 my-auto">
                 <!--<h6 class="sub-header">ARCHITEKTURBÜRO WAGNER</h6>-->
-                <h1                    
-                data-aos="fade-up"
-                data-aos-offset="100"
-                data-aos-delay="50"
-                data-aos-duration="600"
-                class="display-4">Projekte <br> fürs Leben</h1>
+                <h1 class="display-4">Projekte <br> fürs Leben</h1>
                 <p                  
                 data-aos="fade-up"
                 data-aos-offset="100"
@@ -34,16 +28,11 @@
                 data-aos-duration="600"
                 class="btn btn-secondary" href="#">Über uns</a>-->
             </div>
-            <div class="col-md-8"><img                 
-                data-aos="fade-up"
-                data-aos-offset="100"
-                data-aos-delay="700"
-                data-aos-duration="800"
-                class="img-fluid mt-4 mt-md-0 drop-shadow" src="../static/img/arkadenhaus.jpeg"
+            <div class="col-md-8">
+                <img class="img-fluid mt-4 mt-md-0 drop-shadow" src="../static/img/arkadenhaus.jpeg"
                     alt=""></div>
         </div>
     </section>
-</NoSsr>
 </template>
 
 

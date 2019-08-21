@@ -10,7 +10,7 @@ import _6f6c098b from '../layouts/default.vue'
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"Wagner | Wo Projekte leben","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My ace Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"js\u002Fpopper.min.js"},{"src":"js\u002Fjquery-3.4.1.slim.min.js"},{"src":"js\u002Fbootstrap.min.js"},{"src":"js\u002Fsmooth-scroll.js"},{"src":"js\u002Fcookieconsent.min.js"}],"style":[]},
+  head: {"title":"Projekte fürs Leben | Architekturbüro Wagner","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My ace Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"js\u002Fpopper.min.js"},{"src":"js\u002Fjquery-3.4.1.slim.min.js"},{"src":"js\u002Fbootstrap.min.js"},{"src":"js\u002Fsmooth-scroll.js"},{"src":"js\u002Fcookieconsent.min.js"}],"style":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
