@@ -18,6 +18,8 @@
     "nuxt-sass-resources-loader": "^2.0.5",
     "sal.js": "^0.6.1",
     "scrollreveal": "^4.0.5",
+    "vue-carousel": "^0.18.0",
+    "vue-fullpage.js": "^0.1.4",
     "vue-scroll-reveal": "^1.0.11"
   },
   "devDependencies": {

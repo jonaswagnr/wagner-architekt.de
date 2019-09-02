@@ -1,3 +1,5 @@
+import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
+
 export default {
   mode: "universal",
   /*
@@ -53,7 +55,7 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~/plugins/main', ssr: false }
+    { src: '~/plugins/main', ssr: false}
   ],
   /*
    ** Nuxt.js dev-modules

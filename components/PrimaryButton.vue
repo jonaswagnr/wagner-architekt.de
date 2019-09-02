@@ -20,6 +20,7 @@
         background-color: $primary-color;
         color: #fff;
         border: solid 1px $primary-color;
+        cursor: pointer;
     }
 
     .btn-shadow:hover {

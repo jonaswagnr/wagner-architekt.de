@@ -5,13 +5,13 @@
         <div>
           <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
             class="img-z-1 img-fluid drop-shadow"
-            src="https://images.unsplash.com/photo-1520608421741-68228b76b6df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src="../static/img/03_cut.png"
             alt="">
         </div>
         <div>
           <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="250" data-sel-easing="ease-out-bounce"
             class="img-z-2 img-fluid drop-shadow"
-            src="https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80"
+            src="../static/img/18_cut.png"
             alt="">
         </div>
       </div>
@@ -23,13 +23,19 @@
           class="description-project">In Bauaufträgen privater Herkunft arbeiten wir vor allem an Neubauten oder
           Sanierungen von Wohnhäusern.
           Wir haben in den vergangenen Jahren verschiedene Projekte wie zum Beispiel das Arkadenhaus Papenburg geplant
-          und aufgebaut.</p>
+          und gebaut.</p>
         <PrimaryButton href="/projekte/privat" data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
           data-sel-easing="ease-out-bounce">
           <template v-slot:title>
-            Weitere Private Bauvorhaben anschauen
+           Private Bauvorhaben anschauen
           </template>
         </PrimaryButton>
+        <PrimaryButton href="/projekte/privat" data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
+        data-sel-easing="ease-out-bounce">
+        <template v-slot:title>
+         Weiter
+        </template>
+      </PrimaryButton>
       </div>
     </div>
 

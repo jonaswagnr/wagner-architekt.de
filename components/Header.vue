@@ -2,12 +2,10 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-
-
-                <nuxt-link class="navbar-brand" to="/">
+                <a class="navbar-brand" href="/">
                     <img class="logo" src="../static/img/Group.svg" alt="logo">
 
-                </nuxt-link>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigations-08"
                     aria-controls="navigations-08" aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span></button>

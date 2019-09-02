@@ -19,7 +19,7 @@
                 class="btn btn-secondary" href="#">Über uns</a>-->
             </div>
             <div data-sal-duration="600" data-sal="slide-up" data-sal-delay="500" data-sel-easing="ease-out-bounce" class="col-md-8">
-                <img class="img-fluid mt-4 mt-md-0 drop-shadow" src="../static/img/arkadenhaus.jpeg"
+                <img class="img-fluid mt-4 mt-md-0 drop-shadow" src="../static/img/01-gross.jpg"
                     alt=""></div>
         </div>
     </section>
