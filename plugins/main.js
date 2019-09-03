@@ -13,3 +13,6 @@ const vueImgConfig = {
     thumbnails: true,
   }
   Vue.use(VueImg, vueImgConfig);
+
+import vueSmoothScroll from 'vue2-smooth-scroll'
+Vue.use(vueSmoothScroll)
