@@ -36,6 +36,10 @@ p {
   margin: auto;
 }
 
+.vsc-initialized {
+  overflow: unset !important;
+}
+
 .hashtag {
   font-family: $font-h;
   color: #454545;

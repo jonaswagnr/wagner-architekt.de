@@ -17,6 +17,7 @@
                 </div>
             </div>
         </section>
+        <no-ssr>
         <sweet-modal ref="modal" title="Kontakt">
             <p>Architekt <br>
                 Dipl.-Ing. Hans Hermann Wagner FH <br>
@@ -33,6 +34,7 @@
                 </template>
             </PrimaryButton>
         </sweet-modal>
+    </no-ssr>
     </div>
 </div>
 </template>
