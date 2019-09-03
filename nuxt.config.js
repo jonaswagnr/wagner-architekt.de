@@ -42,21 +42,23 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    "@/static/css/bootstrap.min.css", 
-    "@/static/css/_global.scss",
-  ],
+  css: ["@/static/css/bootstrap.min.css", "@/static/css/_global.scss"],
+
   styleResources: {
     scss: ["@/assets/*.scss"]
   },
-  modules: ["@nuxtjs/style-resources"],
+  modules: ["@nuxtjs/style-resources", "nuxt-responsive-loader"],
+
+  responsiveLoader: {
+    min: 1080,
+    max: 1200
+  },
+
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: '~/plugins/main', ssr: false}
-  ],
+  plugins: [{ src: "~/plugins/main", ssr: false }],
   /*
    ** Nuxt.js dev-modules
    */

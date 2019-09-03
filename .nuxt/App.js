@@ -7,8 +7,9 @@ import '../static/css/bootstrap.min.css'
 import '../static/css/_global.scss'
 
 import _6f6c098b from '../layouts/default.vue'
+import _77430317 from '../layouts/empty.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_default": _6f6c098b,"_empty": _77430317 }
 
 export default {
   head: {"title":"Projekte fürs Leben | Architekturbüro Wagner","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My ace Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"js\u002Fpopper.min.js"},{"src":"js\u002Fjquery-3.4.1.slim.min.js"},{"src":"js\u002Fbootstrap.min.js"},{"src":"js\u002Fsmooth-scroll.js"},{"src":"js\u002Fcookieconsent.min.js"}],"style":[]},

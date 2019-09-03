@@ -1,5 +1,6 @@
 <template>
     <div>
+    <div class="container">
         <section class="py-5 margin-bbb">
 
             <div class="row">
@@ -24,9 +25,7 @@
                                         alt="">
                                     <div class="card-body">
                                         <h5 class="card-title">Hans Hermann Wagner</h5>
-                                        <p>Ein Auge für das richtige Maß und Gründer des Architekturbüros. Hans Hermann 
-                                            ist ein leidenschaftlicher Tierfreund und Familienvater von drei Kindern.
-                                            Als Vogelliebhaber freut er sich stets über den Besuch seiner Störche.
+                                        <p>Ein Auge für das richtige Maß und Gründer des Architekturbüros. Vater von drei Kindern und Storchenpapa.
                                         </p>
                                     </div>
                                 </div>
@@ -72,8 +71,9 @@
                 </div>
             </div>
         </section>
-        <Career />
     </div>
+        <Career />
+</div>
 </template>
 
 

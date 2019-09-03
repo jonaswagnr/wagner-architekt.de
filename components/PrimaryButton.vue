@@ -6,7 +6,7 @@
     </a>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
     .btn-primary {
         background-color: white;
         color: $primary-color;

@@ -1,19 +1,19 @@
 <template>
     <div>
-        <ProjectHero />
+        <Privat />
     </div>
   </template>
   
   
   
   <script>
-    import ProjectHero from '@/components/ProjectHero'
+    import Privat from '@/components/Privat'
 
    
   
     export default {
       components: {
-        ProjectHero
+        Privat
       }
   };
   

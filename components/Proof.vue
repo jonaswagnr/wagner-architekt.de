@@ -1,4 +1,5 @@
 <template>
+        <div class="container">
     <section class="py-5 mb-5">
         <div class="container drop-shadow">
             <div class="row justify-content-center align-items-center">
@@ -36,6 +37,7 @@
             </div>
         </div>
     </section>
+    </div>
 </template>
 
 <style>

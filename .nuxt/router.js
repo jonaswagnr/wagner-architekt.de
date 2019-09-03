@@ -9,6 +9,7 @@ const _2ce270aa = () => interopDefault(import('../pages/projekte/gewerblich/inde
 const _13d20cbe = () => interopDefault(import('../pages/projekte/oeffentlich/index.vue' /* webpackChunkName: "pages/projekte/oeffentlich/index" */))
 const _3702134e = () => interopDefault(import('../pages/projekte/privat/index.vue' /* webpackChunkName: "pages/projekte/privat/index" */))
 const _3b0b251d = () => interopDefault(import('../pages/projekte/wohnen-im-alter/index.vue' /* webpackChunkName: "pages/projekte/wohnen-im-alter/index" */))
+const _28a6d17c = () => interopDefault(import('../pages/projekte/privat/arkadenhaus/index.vue' /* webpackChunkName: "pages/projekte/privat/arkadenhaus/index" */))
 const _26503bc0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -113,6 +114,10 @@ export function createRouter() {
       path: "/projekte/wohnen-im-alter",
       component: _3b0b251d,
       name: "projekte-wohnen-im-alter"
+    }, {
+      path: "/projekte/privat/arkadenhaus",
+      component: _28a6d17c,
+      name: "projekte-privat-arkadenhaus"
     }, {
       path: "/",
       component: _26503bc0,

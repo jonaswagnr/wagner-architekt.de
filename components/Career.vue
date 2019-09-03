@@ -1,10 +1,10 @@
 <template>
-    <div>
+        <div class="container">
 
         <section class="py-5">
             <div class="row marginnnnnz">
                 <div class="col-md-6 my-auto">
-                    <h2 class="display-4">Ihre Karriere</h2>
+                    <h2 class="display-4">Karriere</h2>
                     <p class="lead text-muted mb-4">Wir sind immer an <span class="hashtag">Querdenkern und kreativen
                             Köpfen</span> interessiert.
                         Wenn Sie die Motivation und Bereitschaft haben, etwas zu bewegen, dann schreiben Sie uns.
@@ -12,7 +12,7 @@
 
                     <PrimaryButton href="mailto:kontakt@wagner-architekt.de">
                         <template v-slot:title>
-                            Kontakt
+                            Email
                         </template>
                     </PrimaryButton>
                 </div>

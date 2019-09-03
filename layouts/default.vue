@@ -1,16 +1,10 @@
 <template>
 
-  <div class="container0">
+  <div>
     <Cookie />
     <Header />
-    <div class="container">
-      <nuxt />
-    </div>
-    <div class="footer-bg">
-      <div class="container">
-        <Footer />
-      </div>
-    </div>
+    <nuxt />
+    <Footer />
   </div>
 
 </template>
@@ -31,22 +25,11 @@
       sal({
         threshold: 0.6,
         once: true,
-            });
+      });
     }
   }
 </script>
 
 <style>
-   @import "../node_modules/sal.js/dist/sal.css";
-
-  .container {
-    max-width: 1140px;
-    margin: auto;
-  }
-
-  .footer-bg {
-    background-image: url('../static/img/wave3.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  @import "../node_modules/sal.js/dist/sal.css";
 </style>
