@@ -1,7 +1,4 @@
 import Vue from 'vue';
-import VueCarousel from 'vue-carousel';
-
-Vue.use(VueCarousel);
 
 import VueImg from 'v-img';
 
@@ -16,6 +13,3 @@ const vueImgConfig = {
     thumbnails: true,
   }
   Vue.use(VueImg, vueImgConfig);
-
-import vueSmoothScroll from 'vue2-smooth-scroll'
-Vue.use(vueSmoothScroll)
