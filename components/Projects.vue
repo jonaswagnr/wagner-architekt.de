@@ -5,11 +5,11 @@
         <div class="col-md-6 order-0 order-xs-1 mb-3rem img-head">
           <div>
             <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="100" data-sel-easing="ease-out-bounce"
-              class="img-z-1 img-fluid drop-shadow" :srcset="require('@/static/img/03_cut.png').srcSet" />
+              class="img-z-1 img-fluid drop-shadow" :srcset="require('@/static/img/03_cut.jpg').srcSet" />
           </div>
           <div>
             <img data-sal-duration="800" data-sal="slide-up" data-sal-delay="250" data-sel-easing="ease-out-bounce"
-              class="img-z-2 img-fluid drop-shadow" :srcset="require('@/static/img/18_cut.png').srcSet" />
+              class="img-z-2 img-fluid drop-shadow" :srcset="require('@/static/img/18_cut.jpg').srcSet" />
           </div>
         </div>
         <div class="col-md-6 mb-4 mb-md-0 mb-3rem mblr-3rem">
@@ -27,7 +27,7 @@
               Private Bauvorhaben anschauen
             </template>
           </PrimaryButton>
-          <PrimaryButton class="weiter" href="#oeffentlich" v-smooth-scroll="{
+          <PrimaryButton class="weiternpm install --save-dev css-loader" href="#oeffentlich" v-smooth-scroll="{
             duration: 1100, offset:-70}" data-sal-duration="800" data-sal="slide-up" data-sal-delay="600"
             data-sel-easing="ease-out-bounce">
             <template v-slot:title>
