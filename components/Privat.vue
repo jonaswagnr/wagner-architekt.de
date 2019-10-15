@@ -29,7 +29,7 @@
 
             <div id="privat" class="d-flex col-lg-6 flex-wrap">
               <div class="p-2 col-sm-6">
-                <img v-img:arkadenhaus class="img-fluid drop-shadow" src="@/static/img/02.jpg" alt="Arkadenhaus Front-Süd">
+                <img v-img:arkadenhaus class="img-fluid drop-shadow" {src="@/static/img/02.jpg"} alt="Arkadenhaus Front-Süd">
               </div>
               <div class="p-2 col-sm-6">
                 <img v-img:arkadenhaus class="img-fluid drop-shadow" src="@/static/img/03.jpg" alt="Arkadenhaus Front-Süd 2">
@@ -43,11 +43,11 @@
             </div>
               <div class="col-lg-6">
                 <div class="flex-column h-100 p-4">
+
                   <h2>Das Arkadenhaus in Papenburg</h2>
 
                   <p>Das Papenburger Arkadenhaus war 2015 eines unserer größten und zugleich spannensten Projekte. Dabei
-                    war
-                    uns sehr wichtig, ein harmonisches Bild mit dem <span class="hashtag">historisch geprägtem
+                    war uns sehr wichtig, ein harmonisches Bild mit dem <span class="hashtag">historisch geprägtem
                       Stadtzentrum</span> zu schaffen.</p>
 
                   <PrimaryButton href="/projekte/privat/arkadenhaus">
@@ -55,7 +55,7 @@
                       Mehr über das Arkadenhaus erfahren
                     </template>
                   </PrimaryButton>
-
+                  
                 </div>
               </div>
             </div>
